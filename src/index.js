@@ -7,6 +7,7 @@ import { render } from '@testing-library/react';
 import HelloComponent from './HelloComponent';
 import FormLogin from './formLogin';
 import LifecycleComponent from './LifecycleComponent'
+//import Image from './Image';
 
 ReactDOM.render( <
     React.StrictMode >
@@ -21,7 +22,7 @@ ReactDOM.render( <
 //     }
 // }
 
-ReactDOM.render( < FormLogin /> , document.getElementById('root'));
+ReactDOM.render( < LifecycleComponent /> , document.getElementById('root'));
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
